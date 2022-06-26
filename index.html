@@ -12,10 +12,46 @@
             <div class="container">
                 <div>- :: GAME :: -</div>
                 <div>Rock, Paper &<i>&nbsp;Scissors</i></div>
-                <div># Only in Navigator Console</div>
-                <div># Press F12</div>
+                <div>LAST GAME</div>
+                <div class="last-game">................</div>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <!-- <div>VISOR</div> -->
+                
+                <div>
+                    <div class="score-item">
+                        <div class="score" data-score=0>0</div>
+                        <div class="name player">Player</div>
+                    </div>
+                    <div class="score-item">
+                        <div class="score" data-score=0 >0</div>
+                        <div class="name table">Tables</div>
+                    </div>
+                    <div class="score-item">
+                        <div class="score" data-score=0>0</div>
+                        <div class="name machine">Machine</div>
+                    </div>
+                </div>
+
+                <div>SCORE</div>
+
+
+                <div class="trowButtons">
+                    <button class="paper-bt" data-trow="paper">Paper</button>
+                    <button class="rock-bt" data-trow="rock">Rock</button>
+                    <button class="scissors-bt" data-trow="scissors">Scissors</button>
+                </div>
+                <div>
+                    <button class="btn btn-lucid reset">RESET</button>
+                 </div>
+                <div class="sign"> by Unexpected<i><b>Sense</b></i></div>
+            </div>
+        </section>
+        <audio preload="auto"> 
+            <source src="assets/sounds/mixkit-medieval-show-fanfare-announcement-226.wav" type="audio/wav">
+        </audio>
         <script src="./scripts/rps_game.js"></script>
     </body>
 </html>
